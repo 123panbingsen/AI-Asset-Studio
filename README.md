@@ -1,6 +1,6 @@
-# Asset Studio
+# AI Asset Studio
 
-**Local AI game-asset pipeline for Windows** — generate → matte → upscale → split layers → slice → TexturePacker atlas → PS-style editing. Runs fully offline, no Python required.
+**AI Asset Studio — local AI game-asset pipeline for Windows** — generate → matte → upscale → split layers → slice → TexturePacker atlas → PS-style editing. Runs fully offline, no Python required.
 
 ![Asset Studio](docs/superpowers/reports/asset-studio-dpi.png)
 
@@ -10,7 +10,7 @@
 
 ```text
 SHA256 (file checksum, NOT an API key):
-E4AC8D4B484E5AEA43CAD5832DDA677C43361874E71A2BD231A3BB75985D5621
+BA3D6B9900B776BF1EB5884F2FD047FAC71559644611A2E25D7EA76ED65A50FE
 ```
 
 Double-click to run. AI models (BiRefNet / Real-ESRGAN / LaMa) are downloaded on demand to `%APPDATA%\EclipsedAssetStudio`. API keys are stored locally only.
@@ -60,7 +60,7 @@ Model weights are **not** bundled; they are downloaded by the app on demand.
 
 ---
 
-# Asset Studio 中文说明
+# AI Asset Studio 中文说明
 
 本地 **AI 游戏资产管线**（Windows 绿色版）：生图 → 抠图 → 超分 → 拆层 → 切图 → TexturePacker 图集 → PS 类编辑，全部本地运行，无需安装 Python。
 
@@ -71,7 +71,7 @@ Model weights are **not** bundled; they are downloaded by the app on demand.
 文件校验值（SHA256，**不是 API Key**）：
 
 ```text
-E4AC8D4B484E5AEA43CAD5832DDA677C43361874E71A2BD231A3BB75985D5621
+BA3D6B9900B776BF1EB5884F2FD047FAC71559644611A2E25D7EA76ED65A50FE
 ```
 
 双击运行；AI 模型（BiRefNet / Real-ESRGAN / LaMa）首次使用时按需下载到 `%APPDATA%\EclipsedAssetStudio`，API Key 只保存在本机。
@@ -117,3 +117,4 @@ python -m venv .venv
 - The SHA256 value above is a **file checksum** for verifying the downloaded exe, not a credential. / 上面的 SHA256 是 **文件校验值**，不是密钥，不能用于调用接口。
 - API keys are stored only on your machine at `%APPDATA%\EclipsedAssetStudio\config.json`, and are never written to the repo or uploaded. / API Key 只保存在本机 `%APPDATA%\EclipsedAssetStudio\config.json`，不会写入仓库或上传。
 - If you fork this project, never commit your own `config.json`. / Fork 后请不要提交自己的 `config.json`。
+
