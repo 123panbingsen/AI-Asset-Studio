@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "atlas_id": "ui-main",
+  "image": "assets\\atlases\\ui-main.png",
+  "size": [
+    2048,
+    1024
+  ],
+  "sprites": {
+    "scrim": {
+      "id": "scrim",
+      "semantic_name": "scrim",
+      "component_id": "scrim",
+      "state": "default",
+      "source_path": "assets/sprites/darkgold/items/scrim.png",
+      "region": [
+        2,
+        2,
+        1280,
+        720
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "rotated": false,
+      "slice": {
+        "type": "full",
+        "margins": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "frame-gold": {
+      "id": "frame-gold",
+      "semantic_name": "frame-gold",
+      "component_id": "frame-gold",
+      "state": "default",
+      "source_path": "assets/sprites/darkgold/items/frame-gold.png",
+      "region": [
+        1284,
+        2,
+        200,
+        198
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "rotated": false,
+      "slice": {
+        "type": "full",
+        "margins": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "home-background": {
+      "id": "home-background",
+      "semantic_name": "home-background",
+      "component_id": "home-background",
+      "state": "default",
+      "source_path": "assets/sprites/darkgold/items/home-background.png",
+      "region": [
+        1486,
+        2,
+        383,
+        172
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "rotated": false,
+      "slice": {
+        "type": "full",
+        "margins": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "panel": {
+      "id": "panel",
+      "semantic_name": "panel",
+      "component_id": "panel",
+      "state": "default",
+      "source_path": "assets/sprites/darkgold/items/panel.png",
+      "region": [
+        2,
+        724,
+        312,
+        171
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "rotated": false,
+      "slice": {
+        "type": "9-slice",
+        "margins": [
+          34,
+          34,
+          30,
+          30
+        ]
+      }
+    },
+    "btn-icon": {
+      "id": "btn-icon",
+      "semantic_name": "btn-icon",
+      "component_id": "btn-icon",
+      "state": "default",
+      "source_path": "assets/sprites/darkgold/items/btn-icon.png",
+      "region": [
+        316,
+        724,
+        140,
+        140
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "rotated": false,
+      "slice": {
+        "type": "full",
+        "margins": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "btn-primary": {
+      "id": "btn-primary",
+      "semantic_name": "btn-primary",
+      "component_id": "btn-primary",
+      "state": "default",
+      "source_path": "assets/sprites/darkgold/items/btn-primary.png",
+      "region": [
+        458,
+        724,
+        375,
+        133
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "rotated": false,
+      "slice": {
+        "type": "9-slice",
+        "margins": [
+          24,
+          24,
+          16,
+          16
+        ]
+      }
+    },
+    "panel-dark": {
+      "id": "panel-dark",
+      "semantic_name": "panel-dark",
+      "component_id": "panel-dark",
+      "state": "default",
+      "source_path": "assets/sprites/darkgold/items/panel-dark.png",
+      "region": [
+        835,
+        724,
+        375,
+        133
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "rotated": false,
+      "slice": {
+        "type": "9-slice",
+        "margins": [
+          24,
+          24,
+          16,
+          16
+        ]
+      }
+    },
+    "btn-secondary": {
+      "id": "btn-secondary",
+      "semantic_name": "btn-secondary",
+      "component_id": "btn-secondary",
+      "state": "default",
+      "source_path": "assets/sprites/darkgold/items/btn-secondary.png",
+      "region": [
+        1212,
+        724,
+        116,
+        127
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "rotated": false,
+      "slice": {
+        "type": "9-slice",
+        "margins": [
+          18,
+          18,
+          18,
+          18
+        ]
+      }
+    },
+    "slot": {
+      "id": "slot",
+      "semantic_name": "slot",
+      "component_id": "slot",
+      "state": "default",
+      "source_path": "assets/sprites/darkgold/items/slot.png",
+      "region": [
+        1330,
+        724,
+        116,
+        127
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "rotated": false,
+      "slice": {
+        "type": "9-slice",
+        "margins": [
+          18,
+          18,
+          18,
+          18
+        ]
+      }
+    }
+  }
+}

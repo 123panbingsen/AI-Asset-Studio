@@ -1,0 +1,148 @@
+schema_version: 1
+project_id: "eclipsedblade"
+source_screen_id: home
+source_screen_status: approved
+components:
+  - id: home-background
+    name: 主城背景
+    category: background
+    reusable: false
+    transparent_background: false
+    text_policy: none
+    target_size: [750, 1096]
+    states: [default]
+    material: scene
+    atlas_group: background
+    slice: {type: full, margins: [0, 0, 0, 0]}
+    export_targets: [cocos, unity, godot]
+    style_dependencies: [visual.materials, visual.lighting, colors.background]
+    prompt: prompts/components/home-background.md
+    output: assets/resources/skin/darkgold/p106.png
+
+  - id: panel
+    name: 通用面板
+    category: panel
+    reusable: true
+    transparent_background: true
+    text_policy: no-text
+    target_size: [312, 171]
+    states: [default]
+    material: metal
+    atlas_group: panel
+    slice: {type: 9-slice, margins: [34, 34, 30, 30]}
+    export_targets: [cocos, unity, godot]
+    style_dependencies: [colors.primary, tokens.color.surface-panel, geometry.radius.card, geometry.stroke.regular]
+    prompt: prompts/components/panel.md
+    output: assets/resources/skin/darkgold/p106.png
+
+  - id: panel-dark
+    name: 暗面板
+    category: panel
+    reusable: true
+    transparent_background: true
+    text_policy: no-text
+    target_size: [375, 133]
+    states: [default]
+    material: metal
+    atlas_group: panel
+    slice: {type: 9-slice, margins: [24, 24, 16, 16]}
+    export_targets: [cocos, unity, godot]
+    style_dependencies: [tokens.color.surface-panel-2, geometry.radius.card, geometry.stroke.regular]
+    prompt: prompts/components/panel-dark.md
+    output: assets/resources/skin/darkgold/p107.png
+
+  - id: btn-primary
+    name: 主按钮
+    category: button
+    reusable: true
+    transparent_background: true
+    text_policy: no-text
+    target_size: [268, 72]
+    states: [default, pressed, disabled]
+    material: metal
+    atlas_group: button
+    slice: {type: 9-slice, margins: [24, 24, 16, 16]}
+    export_targets: [cocos, unity, godot]
+    style_dependencies: [colors.primary, geometry.radius.small, geometry.stroke.regular, effects.highlight]
+    prompt: prompts/components/btn-primary.md
+    output: assets/resources/skin/darkgold/p107.png
+
+  - id: btn-secondary
+    name: 次按钮
+    category: button
+    reusable: true
+    transparent_background: true
+    text_policy: no-text
+    target_size: [200, 60]
+    states: [default, pressed, disabled]
+    material: metal
+    atlas_group: button
+    slice: {type: 9-slice, margins: [18, 18, 18, 18]}
+    export_targets: [cocos, unity, godot]
+    style_dependencies: [tokens.color.line, geometry.radius.small, geometry.stroke.thin]
+    prompt: prompts/components/btn-secondary.md
+    output: assets/resources/skin/darkgold/p118.png
+
+  - id: btn-icon
+    name: 圆形技能钮
+    category: button
+    reusable: true
+    transparent_background: true
+    text_policy: no-text
+    target_size: [140, 140]
+    states: [default, cooldown]
+    material: metal
+    atlas_group: button
+    slice: {type: full, margins: [0, 0, 0, 0]}
+    export_targets: [cocos, unity, godot]
+    style_dependencies: [colors.primary, effects.highlight]
+    prompt: prompts/components/btn-icon.md
+    output: assets/resources/skin/darkgold/p016.png
+
+  - id: slot
+    name: 槽位框
+    category: panel
+    reusable: true
+    transparent_background: true
+    text_policy: no-text
+    target_size: [96, 96]
+    states: [default, locked, selected]
+    material: metal
+    atlas_group: slot
+    slice: {type: 9-slice, margins: [18, 18, 18, 18]}
+    export_targets: [cocos, unity, godot]
+    style_dependencies: [colors.primary, geometry.radius.small, geometry.stroke.regular]
+    prompt: prompts/components/slot.md
+    output: assets/resources/skin/darkgold/slot.png
+
+  - id: frame-gold
+    name: 金环头像框
+    category: decoration
+    reusable: true
+    transparent_background: true
+    text_policy: none
+    target_size: [320, 320]
+    states: [default]
+    material: metal
+    atlas_group: decoration
+    slice: {type: full, margins: [0, 0, 0, 0]}
+    export_targets: [cocos, unity, godot]
+    style_dependencies: [colors.primary, effects.highlight]
+    prompt: prompts/components/frame-gold.md
+    output: assets/resources/skin/darkgold/p078.png
+
+  - id: scrim
+    name: 遮罩
+    category: decoration
+    reusable: true
+    transparent_background: true
+    text_policy: none
+    target_size: [750, 1334]
+    states: [default]
+    material: none
+    atlas_group: decoration
+    slice: {type: full, margins: [0, 0, 0, 0]}
+    export_targets: [cocos, unity, godot]
+    style_dependencies: [tokens.color.surface-panel]
+    prompt: prompts/components/scrim.md
+    output: assets/resources/ui/backdrop/scrim@2x.png

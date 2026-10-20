@@ -1,0 +1,49 @@
+{
+  "views": [
+    {
+      "view": "front",
+      "label": "正面",
+      "status": "ok"
+    },
+    {
+      "view": "front-45",
+      "label": "前 45°",
+      "status": "ok"
+    },
+    {
+      "view": "side",
+      "label": "右侧",
+      "status": "ok"
+    },
+    {
+      "view": "back-45",
+      "label": "后 45°",
+      "status": "ok"
+    },
+    {
+      "view": "back",
+      "label": "背面",
+      "status": "ok"
+    },
+    {
+      "view": "back-135",
+      "label": "后 135°",
+      "status": "missing"
+    },
+    {
+      "view": "left",
+      "label": "左侧",
+      "status": "missing"
+    },
+    {
+      "view": "front-135",
+      "label": "前 135°",
+      "status": "missing"
+    }
+  ],
+  "cell": [
+    320,
+    320
+  ],
+  "rows": 1
+}

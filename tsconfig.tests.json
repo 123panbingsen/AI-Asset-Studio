@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "strict": true,
+    "outDir": ".test-dist",
+    "rootDir": ".",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": []
+  },
+  "include": [
+    "assets/scripts/framework/Save.ts",
+    "assets/scripts/framework/Progress.ts",
+    "assets/scripts/framework/Stages.ts",
+    "assets/scripts/framework/Inventory.ts",
+    "assets/scripts/framework/Config.ts",
+    "assets/scripts/framework/battle/BattleCore.ts",
+    "tests/**/*"
+  ]
+}

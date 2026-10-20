@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1-1", "chapter": 1, "index": 1, "name": "黄巾之乱", "coins": 300, "firstCoins": 600, "gems": 10,
+    "waves": [[{ "enemy": "huangjin", "count": 2 }]]
+  },
+  {
+    "id": "1-2", "chapter": 1, "index": 2, "name": "虎牢关", "coins": 400, "firstCoins": 800, "gems": 15,
+    "waves": [[{ "enemy": "huangjin", "count": 2 }], [{ "enemy": "gongshou", "count": 2 }]]
+  },
+  {
+    "id": "1-3", "chapter": 1, "index": 3, "name": "汜水关", "coins": 500, "firstCoins": 1000, "gems": 20,
+    "waves": [[{ "enemy": "huangjin", "count": 2 }], [{ "enemy": "gongshou", "count": 2 }], [{ "enemy": "toumu", "count": 1 }]]
+  },
+  {
+    "id": "2-1", "chapter": 2, "index": 1, "name": "长社火攻", "coins": 600, "firstCoins": 1200, "gems": 25,
+    "waves": [[{ "enemy": "huangjin", "count": 3 }], [{ "enemy": "gongshou", "count": 2 }]]
+  },
+  {
+    "id": "2-2", "chapter": 2, "index": 2, "name": "广宗攻坚", "coins": 700, "firstCoins": 1400, "gems": 30,
+    "waves": [[{ "enemy": "gongshou", "count": 2 }], [{ "enemy": "toumu", "count": 1 }, { "enemy": "huangjin", "count": 1 }]]
+  },
+  {
+    "id": "2-3", "chapter": 2, "index": 3, "name": "天师降临", "coins": 900, "firstCoins": 1800, "gems": 40,
+    "waves": [[{ "enemy": "huangjin", "count": 2 }], [{ "enemy": "toumu", "count": 1 }], [{ "enemy": "tianshi", "count": 1 }]]
+  }
+]

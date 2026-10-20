@@ -1,0 +1,71 @@
+{
+ "set": "goldred",
+ "version": 1,
+ "keys": {
+  "panel": {
+   "tex": "skin/goldred/p106",
+   "slice": [
+    34,
+    30,
+    34,
+    30
+   ],
+   "tint": "#ffffff"
+  },
+  "panel_dark": {
+   "tex": "skin/goldred/p107",
+   "slice": [
+    30,
+    24,
+    30,
+    24
+   ],
+   "tint": "#ffffff"
+  },
+  "btn_primary": {
+   "tex": "skin/goldred/p107",
+   "slice": [
+    30,
+    24,
+    30,
+    24
+   ],
+   "tint": "#ffd0a0"
+  },
+  "btn_secondary": {
+   "tex": "skin/goldred/p118",
+   "slice": [
+    18,
+    18,
+    18,
+    18
+   ],
+   "tint": "#ffc0a0"
+  },
+  "btn_icon": {
+   "tex": "skin/goldred/p016",
+   "nine": false,
+   "tint": "#ffffff"
+  },
+  "slot": {
+   "tex": "skin/goldred/slot",
+   "slice": [
+    18,
+    18,
+    18,
+    18
+   ],
+   "tint": "#ffffff"
+  },
+  "frame_gold": {
+   "tex": "skin/goldred/p078",
+   "nine": false,
+   "tint": "#ffffff"
+  },
+  "scrim": {
+   "tex": "ui/backdrop/scrim@2x",
+   "nine": false,
+   "tint": "#ffffff"
+  }
+ }
+}

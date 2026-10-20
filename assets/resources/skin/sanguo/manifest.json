@@ -1,0 +1,97 @@
+{
+ "set": "sanguo",
+ "version": 2,
+ "source": "Desktop\\素材\\tp_split_out",
+ "keys": {
+  "panel": {
+   "tex": "skin/darkgold/panel",
+   "slice": [
+    30,
+    26,
+    30,
+    26
+   ],
+   "tint": "#ffffff"
+  },
+  "panel_dark": {
+   "tex": "skin/darkgold/panel-dark",
+   "slice": [
+    28,
+    24,
+    28,
+    24
+   ],
+   "tint": "#ffffff"
+  },
+  "btn_primary": {
+   "tex": "skin/sanguo/btn-primary",
+   "slice": [
+    26,
+    16,
+    26,
+    16
+   ],
+   "tint": "#ffffff"
+  },
+  "btn_secondary": {
+   "tex": "skin/sanguo/btn-secondary",
+   "slice": [
+    22,
+    14,
+    22,
+    14
+   ],
+   "tint": "#ffffff"
+  },
+  "title_bar": {
+   "tex": "skin/sanguo/title-bar",
+   "nine": false,
+   "tint": "#ffffff"
+  },
+  "frame_gold": {
+   "tex": "skin/sanguo/ring",
+   "nine": false,
+   "tint": "#ffffff"
+  },
+  "slot": {
+   "tex": "skin/sanguo/slot",
+   "slice": [
+    20,
+    20,
+    20,
+    20
+   ],
+   "tint": "#ffffff"
+  },
+  "bar": {
+   "tex": "skin/sanguo/bar",
+   "slice": [
+    12,
+    6,
+    12,
+    6
+   ],
+   "tint": "#ffffff"
+  },
+  "icon_coin": {
+   "tex": "skin/sanguo/icon-coin",
+   "nine": false,
+   "tint": "#ffffff"
+  },
+  "icon_gem": {
+   "tex": "skin/sanguo/icon-gem",
+   "nine": false,
+   "tint": "#ffffff"
+  },
+  "icon_ticket": {
+   "tex": "skin/sanguo/icon-ticket",
+   "nine": false,
+   "tint": "#ffffff"
+  },
+  "scrim": {
+   "tex": "skin/darkgold/scrim",
+   "nine": false,
+   "tint": "#ffffff"
+  }
+ }
+}

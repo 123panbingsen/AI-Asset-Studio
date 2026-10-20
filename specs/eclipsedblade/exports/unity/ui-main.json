@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "engine": "unity",
+  "atlas_id": "ui-main",
+  "atlas_size": [
+    2048,
+    1024
+  ],
+  "texture": "assets\\atlases\\ui-main.png",
+  "spriteMode": "Multiple",
+  "sprites": [
+    {
+      "name": "scrim",
+      "rect": [
+        2,
+        2,
+        1280,
+        720
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100
+    },
+    {
+      "name": "frame-gold",
+      "rect": [
+        1284,
+        2,
+        200,
+        198
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100
+    },
+    {
+      "name": "home-background",
+      "rect": [
+        1486,
+        2,
+        383,
+        172
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100
+    },
+    {
+      "name": "panel",
+      "rect": [
+        2,
+        724,
+        312,
+        171
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        34,
+        34,
+        30,
+        30
+      ],
+      "pixelsPerUnit": 100
+    },
+    {
+      "name": "btn-icon",
+      "rect": [
+        316,
+        724,
+        140,
+        140
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100
+    },
+    {
+      "name": "btn-primary",
+      "rect": [
+        458,
+        724,
+        375,
+        133
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        24,
+        24,
+        16,
+        16
+      ],
+      "pixelsPerUnit": 100
+    },
+    {
+      "name": "panel-dark",
+      "rect": [
+        835,
+        724,
+        375,
+        133
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        24,
+        24,
+        16,
+        16
+      ],
+      "pixelsPerUnit": 100
+    },
+    {
+      "name": "btn-secondary",
+      "rect": [
+        1212,
+        724,
+        116,
+        127
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "pixelsPerUnit": 100
+    },
+    {
+      "name": "slot",
+      "rect": [
+        1330,
+        724,
+        116,
+        127
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "pixelsPerUnit": 100
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+schema_version: 1
+project_id: "eclipsedblade"
+screens:
+  - id: home
+    name: 主城
+    category: core
+    priority: must-have
+    status: approved
+    purpose: 展示当前武将、货币与出征入口
+    entry_points: [启动默认页, 战斗返回]
+    primary_actions: [出征, 查看快捷武将]
+    dependencies: []
+    layout:
+      top: [头像, 名字, 等级, 货币, 设置, 组件库]
+      center: [武将展示, 公告, 标签, 出征按钮]
+      bottom: [快捷武将, 更多武将]
+      floating: []
+    components: [top-bar, home-background, primary-button, frame-avatar, slot-hero]
+    states: [default, loading]
+    edge_cases: [资源未加载]
+    data_needs: [wallet, currentHero]
+    output:
+      brief: prompts/pages/home.md
+      prompt: prompts/pages/home.md
+      image: assets/pages/home-v1.png
+
+  - id: stage-select
+    name: 选关
+    category: core
+    priority: must-have
+    status: approved
+    purpose: 选择可挑战关卡
+    entry_points: [主城出征]
+    primary_actions: [选择关卡]
+    dependencies: [home]
+    layout:
+      top: [标题, 返回]
+      center: [章节, 关卡卡片]
+      bottom: []
+      floating: []
+    components: [panel, stage-card, primary-button]
+    states: [locked, unlocked, cleared]
+    edge_cases: [未解锁, 无进度]
+    data_needs: [cleared, unlockedCount]
+    output:
+      brief: prompts/pages/stage-select.md
+      prompt: prompts/pages/stage-select.md
+      image: assets/pages/stage-select-v1.png
+
+  - id: battle
+    name: 战斗
+    category: core
+    priority: must-have
+    status: approved
+    purpose: 动作战斗并判定胜负
+    entry_points: [选关]
+    primary_actions: [移动, 普攻, 技能]
+    dependencies: [stage-select]
+    layout:
+      top: [敌方血条, 退出]
+      center: [玩家, 敌人, 伤害飘字]
+      bottom: [摇杆, 技能, 普攻, 玩家血条]
+      floating: []
+    components: [joy-stick, skill-button, hp-bar, damage-text]
+    states: [running, win, lose]
+    edge_cases: [技能 CD, 玩家死亡, 敌人清空]
+    data_needs: [heroStats, enemyStats]
+    output:
+      brief: prompts/pages/battle.md
+      prompt: prompts/pages/battle.md
+      image: assets/pages/battle-v1.png
+
+  - id: settlement
+    name: 结算
+    category: core
+    priority: must-have
+    status: approved
+    purpose: 展示胜负与奖励并入账
+    entry_points: [战斗结束]
+    primary_actions: [返回大厅]
+    dependencies: [battle]
+    layout:
+      top: [标题]
+      center: [星级, 奖励]
+      bottom: [按钮]
+      floating: []
+    components: [panel, primary-button, secondary-button, reward-slot]
+    states: [win, lose]
+    edge_cases: [奖励重复领取]
+    data_needs: [reward, stars]
+    output:
+      brief: prompts/pages/settlement.md
+      prompt: prompts/pages/settlement.md
+      image: assets/pages/settlement-v1.png
+
+  - id: hero-list
+    name: 武将图鉴
+    category: growth
+    priority: must-have
+    status: approved
+    purpose: 浏览全部武将
+    entry_points: [主城更多武将, 底部 Tab]
+    primary_actions: [查看武将]
+    dependencies: [home]
+    layout:
+      top: [标题, 筛选]
+      center: [武将卡片网格]
+      bottom: []
+      floating: []
+    components: [hero-card, chip]
+    states: [default, empty]
+    edge_cases: [无武将]
+    data_needs: [heroes]
+    output:
+      brief: prompts/pages/hero-list.md
+      prompt: prompts/pages/hero-list.md
+      image: assets/pages/hero-list-v1.png
+
+  - id: hero-detail
+    name: 武将详情
+    category: growth
+    priority: must-have
+    status: approved
+    purpose: 查看属性/技能并升级
+    entry_points: [武将图鉴, 主城快捷武将]
+    primary_actions: [升级, 返回]
+    dependencies: [hero-list]
+    layout:
+      top: [返回, 头像, 名字, 星级]
+      center: [属性条, 技能]
+      bottom: [升级按钮]
+      floating: []
+    components: [panel, avatar-frame, stat-bar, primary-button]
+    states: [default, insufficient-currency]
+    edge_cases: [金币不足, 满级]
+    data_needs: [heroLevels, wallet]
+    output:
+      brief: prompts/pages/hero-detail.md
+      prompt: prompts/pages/hero-detail.md
+      image: assets/pages/hero-detail-v1.png
+
+  - id: bag
+    name: 背包
+    category: growth
+    priority: genre-specific
+    status: approved
+    purpose: 查看与使用道具
+    entry_points: [底部 Tab]
+    primary_actions: [查看物品, 使用]
+    dependencies: [home]
+    layout:
+      top: [标题, 页签]
+      center: [物品网格]
+      bottom: []
+      floating: [物品详情弹窗]
+    components: [item-slot, panel, primary-button]
+    states: [default, empty]
+    edge_cases: [数量为 0, 背包已满]
+    data_needs: [items]
+    output:
+      brief: prompts/pages/bag.md
+      prompt: prompts/pages/bag.md
+      image: assets/pages/bag-v1.png
+
+  - id: shop
+    name: 商城
+    category: economy
+    priority: genre-specific
+    status: approved
+    purpose: 购买补给
+    entry_points: [底部 Tab]
+    primary_actions: [购买]
+    dependencies: [home]
+    layout:
+      top: [标题, 页签]
+      center: [商品卡片]
+      bottom: []
+      floating: []
+    components: [good-card, primary-button]
+    states: [default, insufficient-currency]
+    edge_cases: [余额不足, 售罄]
+    data_needs: [wallet, goods]
+    output:
+      brief: prompts/pages/shop.md
+      prompt: prompts/pages/shop.md
+      image: assets/pages/shop-v1.png
+
+  - id: quest
+    name: 任务
+    category: retention
+    priority: genre-specific
+    status: approved
+    purpose: 查看任务进度并领取奖励
+    entry_points: [底部 Tab]
+    primary_actions: [领取]
+    dependencies: [home]
+    layout:
+      top: [标题]
+      center: [任务行]
+      bottom: []
+      floating: []
+    components: [quest-row, progress-bar, primary-button, secondary-button]
+    states: [in-progress, claimable, claimed]
+    edge_cases: [已领取, 进度未满]
+    data_needs: [quests]
+    output:
+      brief: prompts/pages/quest.md
+      prompt: prompts/pages/quest.md
+      image: assets/pages/quest-v1.png
+
+  - id: settings
+    name: 设置
+    category: support
+    priority: must-have
+    status: approved
+    purpose: 音乐/音效/震动开关
+    entry_points: [顶栏设置]
+    primary_actions: [切换开关, 关闭]
+    dependencies: []
+    layout:
+      top: [标题]
+      center: [开关行]
+      bottom: [关闭按钮]
+      floating: []
+    components: [panel, toggle, primary-button]
+    states: [default]
+    edge_cases: []
+    data_needs: [settings]
+    output:
+      brief: prompts/pages/settings.md
+      prompt: prompts/pages/settings.md
+      image: assets/pages/settings-v1.png
+
+  - id: kit
+    name: 组件库
+    category: support
+    priority: optional
+    status: approved
+    purpose: 开发用组件与换肤预览
+    entry_points: [顶栏组件库]
+    primary_actions: [切换皮肤, 查看皮肤自检]
+    dependencies: []
+    layout:
+      top: [标题, 皮肤自检]
+      center: [组件示例, 色板]
+      bottom: [换肤按钮]
+      floating: []
+    components: [panel, primary-button, secondary-button, slot, frame-gold]
+    states: [default]
+    edge_cases: [manifest 缺失回退]
+    data_needs: [skinManifest]
+    output:
+      brief: prompts/pages/kit.md
+      prompt: prompts/pages/kit.md
+      image: assets/pages/kit-v1.png

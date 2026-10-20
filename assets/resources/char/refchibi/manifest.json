@@ -1,0 +1,57 @@
+{
+  "id": "refchibi",
+  "dirs": {
+    "S": {
+      "row": "front",
+      "mirror": false,
+      "walk_frames": 8,
+      "idle_frames": 4
+    },
+    "SE": {
+      "row": "front-45",
+      "mirror": false,
+      "walk_frames": 8,
+      "idle_frames": 4
+    },
+    "E": {
+      "row": "side",
+      "mirror": false,
+      "walk_frames": 8,
+      "idle_frames": 4
+    },
+    "NE": {
+      "row": "front-45",
+      "mirror": true,
+      "walk_frames": 8,
+      "idle_frames": 4
+    },
+    "N": {
+      "row": "back",
+      "mirror": false,
+      "walk_frames": 8,
+      "idle_frames": 4
+    },
+    "NW": {
+      "row": "back-45",
+      "mirror": true,
+      "walk_frames": 8,
+      "idle_frames": 4
+    },
+    "W": {
+      "row": "side",
+      "mirror": true,
+      "walk_frames": 8,
+      "idle_frames": 4
+    },
+    "SW": {
+      "row": "back-45",
+      "mirror": false,
+      "walk_frames": 8,
+      "idle_frames": 4
+    }
+  },
+  "states": [
+    "idle",
+    "walk"
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  { "id": "guanyu", "name": "关羽", "title": "武圣", "cls": "战士", "power": 1280, "stars": 5, "color": "#c0352a", "hp": 120, "atk": 12, "speed": 300 },
+  { "id": "zhaoyun", "name": "赵云", "title": "常胜将军", "cls": "刺客", "power": 1180, "stars": 4, "color": "#7fb6c9", "hp": 100, "atk": 10, "speed": 320 },
+  { "id": "zhugeliang", "name": "诸葛亮", "title": "卧龙", "cls": "法师", "power": 1120, "stars": 5, "color": "#8a6ad0", "hp": 85, "atk": 14, "speed": 280 },
+  { "id": "zhangfei", "name": "张飞", "title": "万人敌", "cls": "坦克", "power": 1050, "stars": 3, "color": "#c9742a", "hp": 160, "atk": 9, "speed": 260 },
+  { "id": "huangzhong", "name": "黄忠", "title": "老当益壮", "cls": "射手", "power": 990, "stars": 4, "color": "#6fbf7f", "hp": 90, "atk": 13, "speed": 290 },
+  { "id": "machao", "name": "马超", "title": "锦马超", "cls": "战士", "power": 1080, "stars": 4, "color": "#c9a15a", "hp": 110, "atk": 11, "speed": 310 },
+  { "id": "pangtong", "name": "庞统", "title": "凤雏", "cls": "法师", "power": 960, "stars": 3, "color": "#c05a8a", "hp": 80, "atk": 15, "speed": 270 },
+  { "id": "jiangwei", "name": "姜维", "title": "幼麟", "cls": "刺客", "power": 1020, "stars": 4, "color": "#5a9ac0", "hp": 95, "atk": 10, "speed": 330 }
+]

@@ -1,0 +1,74 @@
+schema_version: 1
+project_id: "eclipsedblade"
+status: approved
+platform:
+  target: mobile
+  orientation: portrait
+  aspect_ratio: "750:1334"
+  reference_size: [750, 1334]
+  safe_area:
+    top: 120
+    right: 24
+    bottom: 118
+    left: 24
+visual:
+  theme: "三国暗金水墨"
+  keywords: [三国, 暗金, 水墨, 朱砂, 鎏金, 古风]
+  mood: "肃杀、厚重、克制"
+  complexity: medium
+  materials: [金属, 丝绸, 宣纸, 石材]
+  lighting:
+    direction: top-left
+    softness: medium
+colors:
+  primary: "#c9a15a"
+  secondary: "#ecd28e"
+  accent: "#c0352a"
+  background: "#0d0b08"
+  warning: "#c9742a"
+  reward: "#e0b75a"
+  disabled: "#5c4826"
+typography:
+  language: zh-CN
+  title: {size: 44, weight: 700}
+  section: {size: 32, weight: 700}
+  body: {size: 24, weight: 500}
+  number: {size: 28, weight: 700}
+  button: {size: 28, weight: 700}
+geometry:
+  radius: {small: 10, card: 14, modal: 18}
+  stroke: {thin: 1, regular: 2, strong: 3}
+  button_height: {small: 44, primary: 72}
+  touch_target: 88
+  icon_size: {utility: 56, navigation: 46, currency: 32}
+effects:
+  shadow: "低透明度外阴影，方向随主光"
+  highlight: "鎏金描边 + 顶部高光"
+  selected: "金色描边 + 下划线"
+  disabled: "降低饱和度并压暗"
+tokens:
+  color:
+    action-primary: "#c9a15a"
+    action-danger: "#c0352a"
+    surface-panel: "#171208"
+    surface-panel-2: "#221a10"
+    text-primary: "#e9e2d0"
+    text-secondary: "#9c9482"
+    line: "#5c4826"
+    green: "#6fbf7f"
+    blue: "#7fb6c9"
+  spacing:
+    xs: 4
+    sm: 8
+    md: 16
+    lg: 24
+    xl: 40
+  motion:
+    fast-ms: 120
+    normal-ms: 220
+consistency_rules:
+  - All pages use the same light direction and material vocabulary.
+  - Navigation icons share perspective, stroke weight, and selected state.
+  - Generated text must be short, readable Chinese or composited later.
+  - 所有面板/按钮/槽位必须走皮肤 key，缺 key 时回退 Graphics。
+  - 面板 9-slice 边距不小于 24，按钮不小于 18，避免拉伸失真。

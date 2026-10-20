@@ -1,0 +1,15 @@
+{
+  "platform": "web-desktop",
+  "debug": false,
+  "startScene": "883df498-78d0-4bdc-9fc7-6dcb568576c2",
+  "outputName": "web-desktop",
+  "packages": {
+    "web-desktop": {
+      "resolution": {
+        "designWidth": 750,
+        "designHeight": 1334
+      }
+    }
+  }
+}
+

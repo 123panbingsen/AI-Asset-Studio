@@ -1,0 +1,193 @@
+schema_version: 1
+pack_id: darkgold
+text_policy: remove-all
+items:
+- id: home-background
+  semantic_name: home-background
+  component_id: home-background
+  category: background
+  state: default
+  path: assets/sprites/darkgold/items/home-background.png
+  bbox:
+  - 0
+  - 0
+  - 383
+  - 172
+  dimensions:
+  - 383
+  - 172
+  slice:
+    type: full
+    margins:
+    - 0
+    - 0
+    - 0
+    - 0
+- id: panel
+  semantic_name: panel
+  component_id: panel
+  category: panel
+  state: default
+  path: assets/sprites/darkgold/items/panel.png
+  bbox:
+  - 0
+  - 0
+  - 312
+  - 171
+  dimensions:
+  - 312
+  - 171
+  slice:
+    type: 9-slice
+    margins:
+    - 34
+    - 30
+    - 34
+    - 30
+- id: panel-dark
+  semantic_name: panel-dark
+  component_id: panel-dark
+  category: panel
+  state: default
+  path: assets/sprites/darkgold/items/panel-dark.png
+  bbox:
+  - 0
+  - 0
+  - 375
+  - 133
+  dimensions:
+  - 375
+  - 133
+  slice:
+    type: 9-slice
+    margins:
+    - 30
+    - 24
+    - 30
+    - 24
+- id: btn-primary
+  semantic_name: btn-primary
+  component_id: btn-primary
+  category: button
+  state: default
+  path: assets/sprites/darkgold/items/btn-primary.png
+  bbox:
+  - 0
+  - 0
+  - 375
+  - 133
+  dimensions:
+  - 375
+  - 133
+  slice:
+    type: 9-slice
+    margins:
+    - 30
+    - 24
+    - 30
+    - 24
+- id: btn-secondary
+  semantic_name: btn-secondary
+  component_id: btn-secondary
+  category: button
+  state: default
+  path: assets/sprites/darkgold/items/btn-secondary.png
+  bbox:
+  - 0
+  - 0
+  - 116
+  - 127
+  dimensions:
+  - 116
+  - 127
+  slice:
+    type: 9-slice
+    margins:
+    - 18
+    - 18
+    - 18
+    - 18
+- id: btn-icon
+  semantic_name: btn-icon
+  component_id: btn-icon
+  category: button
+  state: default
+  path: assets/sprites/darkgold/items/btn-icon.png
+  bbox:
+  - 0
+  - 0
+  - 140
+  - 140
+  dimensions:
+  - 140
+  - 140
+  slice:
+    type: full
+    margins:
+    - 0
+    - 0
+    - 0
+    - 0
+- id: slot
+  semantic_name: slot
+  component_id: slot
+  category: panel
+  state: default
+  path: assets/sprites/darkgold/items/slot.png
+  bbox:
+  - 0
+  - 0
+  - 116
+  - 127
+  dimensions:
+  - 116
+  - 127
+  slice:
+    type: 9-slice
+    margins:
+    - 18
+    - 18
+    - 18
+    - 18
+- id: frame-gold
+  semantic_name: frame-gold
+  component_id: frame-gold
+  category: frame
+  state: default
+  path: assets/sprites/darkgold/items/frame-gold.png
+  bbox:
+  - 0
+  - 0
+  - 200
+  - 198
+  dimensions:
+  - 200
+  - 198
+  slice:
+    type: full
+    margins:
+    - 0
+    - 0
+    - 0
+    - 0
+- id: scrim
+  semantic_name: scrim
+  component_id: scrim
+  category: decoration
+  state: default
+  path: assets/sprites/darkgold/items/scrim.png
+  bbox:
+  - 0
+  - 0
+  - 1280
+  - 720
+  dimensions:
+  - 1280
+  - 720
+  slice:
+    type: full
+    margins:
+    - 0
+    - 0
+    - 0
+    - 0

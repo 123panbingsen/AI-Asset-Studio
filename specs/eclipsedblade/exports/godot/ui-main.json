@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "engine": "godot",
+  "atlas_id": "ui-main",
+  "atlas_size": [
+    2048,
+    1024
+  ],
+  "texture": "assets\\atlases\\ui-main.png",
+  "resources": {
+    "scrim": {
+      "texture": "assets\\atlases\\ui-main.png",
+      "region": [
+        2,
+        2,
+        1280,
+        720
+      ],
+      "patch_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "component_id": "scrim",
+      "state": "default"
+    },
+    "frame-gold": {
+      "texture": "assets\\atlases\\ui-main.png",
+      "region": [
+        1284,
+        2,
+        200,
+        198
+      ],
+      "patch_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "component_id": "frame-gold",
+      "state": "default"
+    },
+    "home-background": {
+      "texture": "assets\\atlases\\ui-main.png",
+      "region": [
+        1486,
+        2,
+        383,
+        172
+      ],
+      "patch_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "component_id": "home-background",
+      "state": "default"
+    },
+    "panel": {
+      "texture": "assets\\atlases\\ui-main.png",
+      "region": [
+        2,
+        724,
+        312,
+        171
+      ],
+      "patch_margins": [
+        34,
+        34,
+        30,
+        30
+      ],
+      "component_id": "panel",
+      "state": "default"
+    },
+    "btn-icon": {
+      "texture": "assets\\atlases\\ui-main.png",
+      "region": [
+        316,
+        724,
+        140,
+        140
+      ],
+      "patch_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "component_id": "btn-icon",
+      "state": "default"
+    },
+    "btn-primary": {
+      "texture": "assets\\atlases\\ui-main.png",
+      "region": [
+        458,
+        724,
+        375,
+        133
+      ],
+      "patch_margins": [
+        24,
+        24,
+        16,
+        16
+      ],
+      "component_id": "btn-primary",
+      "state": "default"
+    },
+    "panel-dark": {
+      "texture": "assets\\atlases\\ui-main.png",
+      "region": [
+        835,
+        724,
+        375,
+        133
+      ],
+      "patch_margins": [
+        24,
+        24,
+        16,
+        16
+      ],
+      "component_id": "panel-dark",
+      "state": "default"
+    },
+    "btn-secondary": {
+      "texture": "assets\\atlases\\ui-main.png",
+      "region": [
+        1212,
+        724,
+        116,
+        127
+      ],
+      "patch_margins": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "component_id": "btn-secondary",
+      "state": "default"
+    },
+    "slot": {
+      "texture": "assets\\atlases\\ui-main.png",
+      "region": [
+        1330,
+        724,
+        116,
+        127
+      ],
+      "patch_margins": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "component_id": "slot",
+      "state": "default"
+    }
+  }
+}

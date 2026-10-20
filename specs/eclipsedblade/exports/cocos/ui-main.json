@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "engine": "cocos",
+  "atlas_id": "ui-main",
+  "atlas_size": [
+    2048,
+    1024
+  ],
+  "texture": "assets\\atlases\\ui-main.png",
+  "frames": {
+    "scrim": {
+      "rect": {
+        "x": 2,
+        "y": 2,
+        "width": 1280,
+        "height": 720
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "originalSize": {
+        "width": 1280,
+        "height": 720
+      },
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "frame-gold": {
+      "rect": {
+        "x": 1284,
+        "y": 2,
+        "width": 200,
+        "height": 198
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "originalSize": {
+        "width": 200,
+        "height": 198
+      },
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "home-background": {
+      "rect": {
+        "x": 1486,
+        "y": 2,
+        "width": 383,
+        "height": 172
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "originalSize": {
+        "width": 383,
+        "height": 172
+      },
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "panel": {
+      "rect": {
+        "x": 2,
+        "y": 724,
+        "width": 312,
+        "height": 171
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "originalSize": {
+        "width": 312,
+        "height": 171
+      },
+      "capInsets": [
+        34,
+        34,
+        30,
+        30
+      ]
+    },
+    "btn-icon": {
+      "rect": {
+        "x": 316,
+        "y": 724,
+        "width": 140,
+        "height": 140
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "originalSize": {
+        "width": 140,
+        "height": 140
+      },
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "btn-primary": {
+      "rect": {
+        "x": 458,
+        "y": 724,
+        "width": 375,
+        "height": 133
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "originalSize": {
+        "width": 375,
+        "height": 133
+      },
+      "capInsets": [
+        24,
+        24,
+        16,
+        16
+      ]
+    },
+    "panel-dark": {
+      "rect": {
+        "x": 835,
+        "y": 724,
+        "width": 375,
+        "height": 133
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "originalSize": {
+        "width": 375,
+        "height": 133
+      },
+      "capInsets": [
+        24,
+        24,
+        16,
+        16
+      ]
+    },
+    "btn-secondary": {
+      "rect": {
+        "x": 1212,
+        "y": 724,
+        "width": 116,
+        "height": 127
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "originalSize": {
+        "width": 116,
+        "height": 127
+      },
+      "capInsets": [
+        18,
+        18,
+        18,
+        18
+      ]
+    },
+    "slot": {
+      "rect": {
+        "x": 1330,
+        "y": 724,
+        "width": 116,
+        "height": 127
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "originalSize": {
+        "width": 116,
+        "height": 127
+      },
+      "capInsets": [
+        18,
+        18,
+        18,
+        18
+      ]
+    }
+  }
+}

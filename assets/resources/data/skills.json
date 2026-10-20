@@ -1,0 +1,5 @@
+[
+  { "id": "qinglong", "name": "青龙斩", "color": "#c0352a", "cd": 6, "mult": 2.0, "range": 180, "type": "aoe" },
+  { "id": "tuodao", "name": "拖刀计", "color": "#7fb6c9", "cd": 8, "mult": 1.8, "range": 300, "type": "ranged" },
+  { "id": "wusheng", "name": "武圣附体", "color": "#e0b75a", "cd": 12, "mult": 0.3, "range": 0, "type": "heal" }
+]

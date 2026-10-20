@@ -1,0 +1,106 @@
+{
+ "set": "darkgold",
+ "version": 2,
+ "source": "specs/eclipsedblade/exports/cocos/ui-main.json",
+ "keys": {
+  "scrim": {
+   "tex": "skin/darkgold/scrim",
+   "tint": "#ffffff",
+   "nine": false,
+   "slice": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "frame_gold": {
+   "tex": "skin/darkgold/frame-gold",
+   "tint": "#ffffff",
+   "nine": false,
+   "slice": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "home_background": {
+   "tex": "skin/darkgold/home-background",
+   "tint": "#ffffff",
+   "nine": false,
+   "slice": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "panel": {
+   "tex": "skin/darkgold/panel",
+   "tint": "#ffffff",
+   "nine": true,
+   "slice": [
+    34,
+    30,
+    34,
+    30
+   ]
+  },
+  "btn_icon": {
+   "tex": "skin/darkgold/btn-icon",
+   "tint": "#ffffff",
+   "nine": false,
+   "slice": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "btn_primary": {
+   "tex": "skin/darkgold/btn-primary",
+   "tint": "#ffe7b8",
+   "nine": true,
+   "slice": [
+    24,
+    16,
+    24,
+    16
+   ]
+  },
+  "panel_dark": {
+   "tex": "skin/darkgold/panel-dark",
+   "tint": "#ffffff",
+   "nine": true,
+   "slice": [
+    24,
+    16,
+    24,
+    16
+   ]
+  },
+  "btn_secondary": {
+   "tex": "skin/darkgold/btn-secondary",
+   "tint": "#cfd6e0",
+   "nine": true,
+   "slice": [
+    18,
+    18,
+    18,
+    18
+   ]
+  },
+  "slot": {
+   "tex": "skin/darkgold/slot",
+   "tint": "#ffffff",
+   "nine": true,
+   "slice": [
+    18,
+    18,
+    18,
+    18
+   ]
+  }
+ }
+}

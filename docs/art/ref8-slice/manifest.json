@@ -1,0 +1,714 @@
+{
+  "sheet": "ref8.jpg",
+  "cols": 8,
+  "rows": 5,
+  "canvas": [
+    160,
+    160
+  ],
+  "row_names": [
+    "front",
+    "front-45",
+    "side",
+    "back-45",
+    "back"
+  ],
+  "column_bands": [
+    [
+      186,
+      246
+    ],
+    [
+      328,
+      386
+    ],
+    [
+      466,
+      526
+    ],
+    [
+      608,
+      666
+    ],
+    [
+      747,
+      807
+    ],
+    [
+      887,
+      948
+    ],
+    [
+      1029,
+      1088
+    ],
+    [
+      1169,
+      1230
+    ]
+  ],
+  "row_bands": [
+    [
+      0,
+      141
+    ],
+    [
+      142,
+      282
+    ],
+    [
+      283,
+      424
+    ],
+    [
+      425,
+      565
+    ],
+    [
+      566,
+      707
+    ]
+  ],
+  "cells": [
+    {
+      "row": 0,
+      "col": 0,
+      "row_name": "front",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front\\00.png",
+      "source_rect": [
+        183,
+        0,
+        67,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "row_name": "front",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front\\01.png",
+      "source_rect": [
+        325,
+        0,
+        65,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "row_name": "front",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front\\02.png",
+      "source_rect": [
+        463,
+        0,
+        67,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "row_name": "front",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front\\03.png",
+      "source_rect": [
+        605,
+        0,
+        65,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "row_name": "front",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front\\04.png",
+      "source_rect": [
+        744,
+        0,
+        67,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "row_name": "front",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front\\05.png",
+      "source_rect": [
+        884,
+        0,
+        68,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "row_name": "front",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front\\06.png",
+      "source_rect": [
+        1026,
+        0,
+        66,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "row_name": "front",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front\\07.png",
+      "source_rect": [
+        1166,
+        0,
+        68,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "row_name": "front-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front-45\\00.png",
+      "source_rect": [
+        183,
+        139,
+        67,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "row_name": "front-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front-45\\01.png",
+      "source_rect": [
+        325,
+        139,
+        65,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "row_name": "front-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front-45\\02.png",
+      "source_rect": [
+        463,
+        139,
+        67,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "row_name": "front-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front-45\\03.png",
+      "source_rect": [
+        605,
+        139,
+        65,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "row_name": "front-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front-45\\04.png",
+      "source_rect": [
+        744,
+        139,
+        67,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "row_name": "front-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front-45\\05.png",
+      "source_rect": [
+        884,
+        139,
+        68,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "row_name": "front-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front-45\\06.png",
+      "source_rect": [
+        1026,
+        139,
+        66,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "row_name": "front-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\front-45\\07.png",
+      "source_rect": [
+        1166,
+        139,
+        68,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "row_name": "side",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\side\\00.png",
+      "source_rect": [
+        183,
+        280,
+        67,
+        148
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "row_name": "side",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\side\\01.png",
+      "source_rect": [
+        325,
+        280,
+        65,
+        148
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "row_name": "side",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\side\\02.png",
+      "source_rect": [
+        463,
+        280,
+        67,
+        148
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "row_name": "side",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\side\\03.png",
+      "source_rect": [
+        605,
+        280,
+        65,
+        148
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "row_name": "side",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\side\\04.png",
+      "source_rect": [
+        744,
+        280,
+        67,
+        148
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "row_name": "side",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\side\\05.png",
+      "source_rect": [
+        884,
+        280,
+        68,
+        148
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "row_name": "side",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\side\\06.png",
+      "source_rect": [
+        1026,
+        280,
+        66,
+        148
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 2,
+      "col": 7,
+      "row_name": "side",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\side\\07.png",
+      "source_rect": [
+        1166,
+        280,
+        68,
+        148
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 3,
+      "col": 0,
+      "row_name": "back-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back-45\\00.png",
+      "source_rect": [
+        183,
+        422,
+        67,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "row_name": "back-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back-45\\01.png",
+      "source_rect": [
+        325,
+        422,
+        65,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "row_name": "back-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back-45\\02.png",
+      "source_rect": [
+        463,
+        422,
+        67,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "row_name": "back-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back-45\\03.png",
+      "source_rect": [
+        605,
+        422,
+        65,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "row_name": "back-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back-45\\04.png",
+      "source_rect": [
+        744,
+        422,
+        67,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "row_name": "back-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back-45\\05.png",
+      "source_rect": [
+        884,
+        422,
+        68,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "row_name": "back-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back-45\\06.png",
+      "source_rect": [
+        1026,
+        422,
+        66,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 3,
+      "col": 7,
+      "row_name": "back-45",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back-45\\07.png",
+      "source_rect": [
+        1166,
+        422,
+        68,
+        147
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 4,
+      "col": 0,
+      "row_name": "back",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back\\00.png",
+      "source_rect": [
+        183,
+        563,
+        67,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "row_name": "back",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back\\01.png",
+      "source_rect": [
+        325,
+        563,
+        65,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "row_name": "back",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back\\02.png",
+      "source_rect": [
+        463,
+        563,
+        67,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "row_name": "back",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back\\03.png",
+      "source_rect": [
+        605,
+        563,
+        65,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "row_name": "back",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back\\04.png",
+      "source_rect": [
+        744,
+        563,
+        67,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "row_name": "back",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back\\05.png",
+      "source_rect": [
+        884,
+        563,
+        68,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 4,
+      "col": 6,
+      "row_name": "back",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back\\06.png",
+      "source_rect": [
+        1026,
+        563,
+        66,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "row": 4,
+      "col": 7,
+      "row_name": "back",
+      "path": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\ref8-slice\\back\\07.png",
+      "source_rect": [
+        1166,
+        563,
+        68,
+        145
+      ],
+      "size": [
+        160,
+        160
+      ]
+    }
+  ]
+}

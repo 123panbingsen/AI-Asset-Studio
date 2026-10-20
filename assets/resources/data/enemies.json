@@ -1,0 +1,6 @@
+[
+  { "id": "huangjin", "name": "黄巾力士", "color": "#c0352a", "hp": 60, "atk": 5, "speed": 120, "range": 70, "attackCd": 1.0, "coins": 30, "exp": 10 },
+  { "id": "gongshou", "name": "黄巾弓手", "color": "#c9742a", "hp": 45, "atk": 7, "speed": 100, "range": 160, "attackCd": 1.4, "coins": 40, "exp": 14 },
+  { "id": "toumu", "name": "黄巾头目", "color": "#8a2a2a", "hp": 140, "atk": 11, "speed": 90, "range": 80, "attackCd": 1.2, "coins": 90, "exp": 30 },
+  { "id": "tianshi", "name": "黄巾天师", "color": "#6a2a8a", "hp": 320, "atk": 16, "speed": 110, "range": 90, "attackCd": 1.2, "coins": 260, "exp": 90, "boss": true }
+]

@@ -1,0 +1,10 @@
+# Asset Studio 依赖（Python 3.9）
+pillow
+numpy<2
+requests
+pyinstaller
+tkinterdnd2
+rectpack
+rembg
+onnxruntime
+torch

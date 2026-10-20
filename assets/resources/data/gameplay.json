@@ -1,0 +1,60 @@
+{
+  "attributes": {
+    "points": 60,
+    "cap": 24,
+    "burst": { "str": 0.4, "spd": 0.4, "int": 0.2 },
+    "respec": { "freeUntil": 10, "perPoint": 10 }
+  },
+  "permanentSkills": [
+    {
+      "id": "eclipsed_blade",
+      "name": "蚀刃",
+      "desc": "力量与速度同调，普攻附带蚀伤，爆发力最高。",
+      "tag": "dps"
+    },
+    {
+      "id": "night_heart",
+      "name": "夜心",
+      "desc": "以生命与抗性为盾，受击减伤并缓慢回复。",
+      "tag": "tank"
+    },
+    {
+      "id": "light_engine",
+      "name": "光机",
+      "desc": "离线收益提升，日蚀时段额外产出资源。",
+      "tag": "idle"
+    }
+  ],
+  "skillPool": [
+    { "defId": "qinglong", "name": "青龙斩", "quality": "epic" },
+    { "defId": "tuodao", "name": "拖刀计", "quality": "rare" },
+    { "defId": "wusheng", "name": "武圣附体", "quality": "legend" },
+    { "defId": "pojun", "name": "破军", "quality": "rare" },
+    { "defId": "liuxing", "name": "流星", "quality": "common" },
+    { "defId": "tiebi", "name": "铁壁", "quality": "common" },
+    { "defId": "huichun", "name": "回春", "quality": "rare" },
+    { "defId": "shixue", "name": "蚀血", "quality": "epic" },
+    { "defId": "jinghong", "name": "惊鸿", "quality": "common" },
+    { "defId": "zhanyue", "name": "斩月", "quality": "legend" }
+  ],
+  "slots": [
+    { "level": 1, "count": 1 },
+    { "level": 5, "count": 2 },
+    { "level": 10, "count": 3 },
+    { "level": 20, "count": 4 },
+    { "level": 30, "count": 5 },
+    { "level": 50, "count": 6 }
+  ],
+  "idle": {
+    "safe": { "coinsPerMin": 30, "shardsPerMin": 1, "trialChancePerMin": 0 },
+    "adventure": { "coinsPerMin": 60, "shardsPerMin": 2, "trialChancePerMin": 0.1 },
+    "offlineCapHours": 8,
+    "eclipse": { "startHour": 20, "endHour": 21, "resourceMult": 2, "trialMult": 1.5 }
+  },
+  "trial": {
+    "firstN": 3,
+    "pityFails": 3,
+    "protectMax": 2,
+    "purifyShards": 20
+  }
+}

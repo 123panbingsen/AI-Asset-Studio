@@ -1,0 +1,42 @@
+{
+  "sheet": "C:\\Users\\Administrator\\EclipsedBlade\\docs\\art\\spriteatlas-attack.png",
+  "tile": [
+    160,
+    160
+  ],
+  "dirs": {
+    "S": {
+      "row": 0,
+      "frames": 8
+    },
+    "SE": {
+      "row": 1,
+      "frames": 8
+    },
+    "E": {
+      "row": 2,
+      "frames": 8
+    },
+    "NE": {
+      "row": 3,
+      "frames": 8
+    },
+    "N": {
+      "row": 4,
+      "frames": 8
+    },
+    "NW": {
+      "row": 5,
+      "frames": 8
+    },
+    "W": {
+      "row": 6,
+      "frames": 8
+    },
+    "SW": {
+      "row": 7,
+      "frames": 8
+    }
+  },
+  "states": {}
+}

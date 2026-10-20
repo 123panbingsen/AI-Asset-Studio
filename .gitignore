@@ -1,0 +1,27 @@
+library/
+build/
+build-templates/
+temp/
+profiles/
+.creator/
+.test-dist/
+runs/
+node_modules/
+tools/third_party/
+*.zip
+*.exe
+.superpowers/
+# Asset Studio build artifacts
+tools/asset_studio/dist/
+tools/asset_studio/build/
+tools/asset_studio/*.spec
+
+# Python caches
+__pycache__/
+*.pyc
+
+
+# local AI binaries
+tools/asset_studio/bin/
+tools/asset_studio/fonts/_families.json
+

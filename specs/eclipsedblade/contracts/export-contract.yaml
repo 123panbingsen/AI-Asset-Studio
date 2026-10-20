@@ -1,0 +1,22 @@
+schema_version: 1
+project_id: eclipsedblade
+status: generated
+source_atlas_id: ui-main
+targets:
+- engine: godot
+  format: json-manifest
+  manifest_path: exports/godot/ui-main.json
+  native_project_files: false
+- engine: unity
+  format: json-manifest
+  manifest_path: exports/unity/ui-main.json
+  native_project_files: false
+- engine: cocos
+  format: json-manifest
+  manifest_path: exports/cocos/ui-main.json
+  native_project_files: false
+review:
+  complete: true
+  notes:
+  - JSON manifests are deterministic handoff files, not native engine imports.
+  - Cocos target exports frame rect, original size and cap insets for 9-slice.
