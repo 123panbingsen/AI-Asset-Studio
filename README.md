@@ -9,7 +9,8 @@
 **[AssetStudio.exe](dist/AssetStudio.exe)** · 42.4 MB · Windows 10/11 x64
 
 ```text
-SHA256: E4AC8D4B484E5AEA43CAD5832DDA677C43361874E71A2BD231A3BB75985D5621
+SHA256 (file checksum, NOT an API key):
+E4AC8D4B484E5AEA43CAD5832DDA677C43361874E71A2BD231A3BB75985D5621
 ```
 
 Double-click to run. AI models (BiRefNet / Real-ESRGAN / LaMa) are downloaded on demand to `%APPDATA%\EclipsedAssetStudio`. API keys are stored locally only.
@@ -67,7 +68,7 @@ Model weights are **not** bundled; they are downloaded by the app on demand.
 
 **[AssetStudio.exe](dist/AssetStudio.exe)** · 42.4MB · Windows 10/11 x64
 
-SHA256：
+文件校验值（SHA256，**不是 API Key**）：
 
 ```text
 E4AC8D4B484E5AEA43CAD5832DDA677C43361874E71A2BD231A3BB75985D5621
@@ -107,3 +108,12 @@ python -m venv .venv
 
 代码 MIT；字体与依赖许可见 [LICENSE](LICENSE) 与 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 模型权重不随仓库分发，由程序按需下载。
+
+---
+
+## Security / 安全说明
+
+- **This repository contains no API keys.** / **本仓库不包含任何 API Key。**
+- The SHA256 value above is a **file checksum** for verifying the downloaded exe, not a credential. / 上面的 SHA256 是 **文件校验值**，不是密钥，不能用于调用接口。
+- API keys are stored only on your machine at `%APPDATA%\EclipsedAssetStudio\config.json`, and are never written to the repo or uploaded. / API Key 只保存在本机 `%APPDATA%\EclipsedAssetStudio\config.json`，不会写入仓库或上传。
+- If you fork this project, never commit your own `config.json`. / Fork 后请不要提交自己的 `config.json`。
