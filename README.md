@@ -8,6 +8,9 @@
 
 **[AssetStudio.exe](dist/AssetStudio.exe)** · 42.4 MB · Windows 10/11 x64
 
+- Latest release: https://github.com/123panbingsen/AI-Asset-Studio/releases/latest
+- All releases: https://github.com/123panbingsen/AI-Asset-Studio/releases
+
 ```text
 SHA256 (file checksum, NOT an API key):
 BA3D6B9900B776BF1EB5884F2FD047FAC71559644611A2E25D7EA76ED65A50FE
@@ -68,6 +71,9 @@ Model weights are **not** bundled; they are downloaded by the app on demand.
 
 **[AssetStudio.exe](dist/AssetStudio.exe)** · 42.4MB · Windows 10/11 x64
 
+- 最新版本：https://github.com/123panbingsen/AI-Asset-Studio/releases/latest
+- 所有版本：https://github.com/123panbingsen/AI-Asset-Studio/releases
+
 文件校验值（SHA256，**不是 API Key**）：
 
 ```text
@@ -117,4 +123,5 @@ python -m venv .venv
 - The SHA256 value above is a **file checksum** for verifying the downloaded exe, not a credential. / 上面的 SHA256 是 **文件校验值**，不是密钥，不能用于调用接口。
 - API keys are stored only on your machine at `%APPDATA%\EclipsedAssetStudio\config.json`, and are never written to the repo or uploaded. / API Key 只保存在本机 `%APPDATA%\EclipsedAssetStudio\config.json`，不会写入仓库或上传。
 - If you fork this project, never commit your own `config.json`. / Fork 后请不要提交自己的 `config.json`。
+
 
